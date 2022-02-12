@@ -21,7 +21,65 @@
 * To create a link in HTML, we use the anchor element. 
 * <a href="https://www.theodinproject.com/about">click me</a>
 
+# Box-sizing  border-box;
+* takes into accoutn P B M within widtha and height-good as default~Web dev simplified
 ![box-sizing](box-sizing.png)
+```
+<body>
+    <h1 class="box-one">box 1 </h1>
+    <h2 class="box-two">box 2 </h2>
+</body>
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+.box-one {
+    background-color: red;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 20px solid purple;
+    margin: 100px;
+}
+
+.box-one {
+    background-color: rgb(25, 0, 255);
+    border: 30px solid rgb(24, 167, 36);
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    border: 30px solid purple;
+    margin: 70px;
+}
+```
+
+
+# margin auto]
+* auto and centering
+Each of the margin properties can also accept a value of auto. A value of auto basically tells the browser to define the margin for you. In most cases, a value of auto will be equivalent to a value of 0 (which is the initial value for each margin property) or else whatever space is available on that side of the element. However, auto is handy for horizontal centering:
+
+```
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+```
+In this example, two things are done to center this element horizontally within the available space:
+
+The element is given a specified width
+The left and right margins are set to auto
+Without the specified width, the auto values would essentially have no effect, setting the left and right margins to 0 or else to whatever is the available space inside the parent element.
+
+It should also be pointed out that auto is useful only for horizontal centering, and so using auto for top and bottom margins will not center an element vertically, which can be confusing for beginners.
+
+
+
+
+
 
 -----------------------------------------------------------------------------
 
