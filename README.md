@@ -1,3 +1,35 @@
+# Links
+ * 
+
+    <h1>HomePage</h1>
+    <!-- HTML ELEMENT : anchor tag -->
+    <!-- HTML Attribute(2 parts: a name , a value): href = hyperlink reference -->
+    <a href="https://www.theodinproject.com/about">Click Me</a>
+
+* Absolute Links
+Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: protocol://domain/path. An absolute link will always contain the protocol and domain of the destination.
+* Relative Links
+Links to other pages within our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on.
+
+Relative links only include the file path to the other page, relative to the page you are creating the link on
+
+*  .   go to parent folder or 1 heirachy"
+* ..   go to 2 heirachies up
+* Using the metaphor we used earlier, using ../ in a filepath is kind of like stepping out from the room you are currently in to the main hallway so you can go to another room.
+* /images  go into images directory
+* ../images   go to 2 heirachies up then go into images directory
+*  ./   ". == go to parent folder": In many cases, this will work just fine; however, you can still run into unexpected issues with this approach. Prepending ./ before the link will in most cases prevent such issues. By adding ./ you are specifying to your code that it should start looking for the file/directory relative to the current directory
+
+
+
+
+
+
+
+
+
+
+
 # git_test
 
 # git
@@ -23,7 +55,7 @@
 
 # Box-sizing  border-box;
 * takes into accoutn P B M within widtha and height-good as default~Web dev simplified
-![box-sizing](box-sizing.png)
+![box-sizing](/box-sizing.png)
 ```
 <body>
     <h1 class="box-one">box 1 </h1>
